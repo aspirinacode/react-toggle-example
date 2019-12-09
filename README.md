@@ -1,6 +1,6 @@
 # Exercize of a simple react-app
 
-This is a simple toggle-<div> exercize.
+This is a simple toggle-\<div\> exercize.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
