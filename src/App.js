@@ -14,22 +14,10 @@ class App extends Component {
     buttonValue: "Mostra"
   };
 
-  // togglePersonsHandler = () => {
-  //   if (this.state.showPersons) {
-  //     console.log("Premuto, this.state.showPersons true");
-  //     this.setState({ showPersons: false });
-  //     this.setState({ buttonValue: "Mostra" });
-  //   } else {
-  //     console.log("Premuto, this.state.showPersons false");
-  //     this.setState({ showPersons: true });
-  //     this.setState({ buttonValue: "Nascondi" });
-  //   }
-  // };
-
   togglePersonsHandler = () => {
     const doesShow = this.state.showPersons;
-    this.setState({showPersons = !doesShow});
-  }
+    this.setState({ showPersons: !doesShow });
+  };
 
   render() {
     return (
