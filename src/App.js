@@ -20,29 +20,32 @@ class App extends Component {
   };
 
   render() {
+    let person = null;
+    if (this.state.showPersons) {
+      person = (
+        <div>
+          <Persons
+            name={this.state.persons[0].name}
+            age={this.state.persons[0].age}
+          />
+          <Persons
+            name={this.state.persons[1].name}
+            age={this.state.persons[1].age}
+          />
+          <Persons
+            name={this.state.persons[2].name}
+            age={this.state.persons[2].age}
+          />
+        </div>
+      );
+    }
+
     return (
       <div className="App">
         <button onClick={this.togglePersonsHandler} className="button">
           {this.state.buttonValue}
         </button>
-        {this.state.showPersons ? (
-          <div>
-            <Persons
-              name={this.state.persons[0].name}
-              age={this.state.persons[0].age}
-            />
-            <Persons
-              name={this.state.persons[1].name}
-              age={this.state.persons[1].age}
-            />
-            <Persons
-              name={this.state.persons[2].name}
-              age={this.state.persons[2].age}
-            />
-          </div>
-        ) : (
-          <p>Premi il bottone</p>
-        )}
+        {person}
       </div>
     );
   }
