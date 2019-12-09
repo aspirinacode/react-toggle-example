@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-toggle-example/static/css/main.d99d639e.chunk.css",
+    "main.js": "/react-toggle-example/static/js/main.109392d4.chunk.js",
+    "main.js.map": "/react-toggle-example/static/js/main.109392d4.chunk.js.map",
+    "runtime-main.js": "/react-toggle-example/static/js/runtime-main.430c7332.js",
+    "runtime-main.js.map": "/react-toggle-example/static/js/runtime-main.430c7332.js.map",
+    "static/js/2.ae4e5067.chunk.js": "/react-toggle-example/static/js/2.ae4e5067.chunk.js",
+    "static/js/2.ae4e5067.chunk.js.map": "/react-toggle-example/static/js/2.ae4e5067.chunk.js.map",
+    "index.html": "/react-toggle-example/index.html",
+    "precache-manifest.43a0fbc13c002c5f33ee8f6e82316ea7.js": "/react-toggle-example/precache-manifest.43a0fbc13c002c5f33ee8f6e82316ea7.js",
+    "service-worker.js": "/react-toggle-example/service-worker.js",
+    "static/css/main.d99d639e.chunk.css.map": "/react-toggle-example/static/css/main.d99d639e.chunk.css.map",
+    "static/js/2.ae4e5067.chunk.js.LICENSE": "/react-toggle-example/static/js/2.ae4e5067.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.430c7332.js",
+    "static/js/2.ae4e5067.chunk.js",
+    "static/css/main.d99d639e.chunk.css",
+    "static/js/main.109392d4.chunk.js"
+  ]
+}
