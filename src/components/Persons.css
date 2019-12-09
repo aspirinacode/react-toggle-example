@@ -1,0 +1,14 @@
+label {
+  font-size: 20px;
+  color: rgb(202, 202, 202);
+}
+
+.box {
+  width: 30%;
+  background-color: rgb(90, 10, 10);
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 3px solid rgb(61, 0, 0);
+  margin: 10px;
+  padding: 16px;
+}
