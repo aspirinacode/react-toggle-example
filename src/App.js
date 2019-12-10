@@ -51,6 +51,7 @@ class App extends Component {
         <div>
           {this.state.persons.map((person, index) => {
             return (
+              <div>test</div>
               <Persons
                 name={person.name}
                 age={person.age}
