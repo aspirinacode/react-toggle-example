@@ -8,9 +8,9 @@ class App extends Component {
     persons: [
       { id: "1", name: "Francesco", age: 22 },
       { id: "2", name: "Lucrezia", age: 23 },
-      { id: "3", name: "Rebecca", age: 21 }
-      { id: "4", name: "Niccolò", age: 23 }
-      { id: "5", name: "Test", age: 'xyz' }
+      { id: "3", name: "Rebecca", age: 21 },
+      { id: "4", name: "Niccolò", age: 23 },
+      { id: "5", name: "Test", age: "xyz" }
     ],
     showPersons: false,
     buttonValue: "Mostra"
@@ -51,7 +51,6 @@ class App extends Component {
         <div>
           {this.state.persons.map((person, index) => {
             return (
-              <div>test</div>
               <Persons
                 name={person.name}
                 age={person.age}
