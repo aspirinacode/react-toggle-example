@@ -1,6 +1,6 @@
 {
   "name": "react-toggle-example",
-  "homepage": "https://aspirinacode.github.io/react-toggle-example",
+  "homepage": "https://prostagma-code.github.io/react-toggle-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "rm -rf build && npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
